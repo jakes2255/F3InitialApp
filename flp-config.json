@@ -1,0 +1,34 @@
+{
+    "application": {
+        "id": "",
+        "title": "com.study.Z_F3_InitialApp.Z_F3_InitialApp",
+        "type": "SAP_UI5_Component",
+        "componentUrl": "/",
+        "appUrl": "#Z_F3_InitialApp-Display",
+        "navigationComponentName": "com.study.Z_F3_InitialApp",
+        "intentSemanticObject": "Z_F3_InitialApp",
+        "intentAction": "Display",
+        "html5ApplicationName": "zf3initialapp",
+        "HCPParentApplicationName": ""
+    },
+    "assignment": {
+        "groups": [
+            "f1eb5ae3-5aaf-4814-8243-f467be7169ff-1458218469747"
+        ],
+        "contentPackages": [
+            "fcf2f206-797e-45af-8f3b-082f656cf173-1458218392776"
+        ],
+        "categories": []
+    },
+    "tile": {
+        "type": "StaticTile",
+        "title": "Title",
+        "subtitle": "Subtitle",
+        "searchKeywords": "Title,Subtitle",
+        "displayIconUrl": "sap-icon://approvals",
+        "displayInfoText": "",
+        "size": "1x1",
+        "serviceURL": "",
+        "refreshInterval": ""
+    }
+}
