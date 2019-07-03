@@ -1,0 +1,20 @@
+<mvc:View controllerName="com.study.Z_F3_InitialApp.controller.Display" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<List class="sapUiResponsiveMargin" width="auto" items="{myTree>/Data}">
+							<items>
+								<ObjectListItem title="{myTree>User}" number="{myTree>Age}" numberUnit="Year Old" numberState="{=${myTree>Age} > 18 ? 'Success' : 'Error' }"/>
+							</items>
+						</List>
+						<Tree id="Tree" items="{path: 'myTree>/Data'}">
+							<StandardTreeItem title="{Addresses}"/>
+						</Tree>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
